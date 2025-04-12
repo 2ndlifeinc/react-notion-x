@@ -30,6 +30,7 @@ function LinkMentionInline({ metadata }: { metadata: LinkMentionData }) {
         className='notion-link-mention-icon'
         src={metadata.icon_url}
         alt={metadata.link_provider}
+        referrerPolicy='same-origin'
       />
       {metadata.link_provider && (
         <span className='notion-link-mention-provider'>
