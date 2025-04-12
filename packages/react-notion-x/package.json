@@ -1,6 +1,6 @@
 {
   "name": "@2ndlife/react-notion-x",
-  "version": "7.3.0",
+  "version": "7.3.0-4-g2d10eff",
   "type": "module",
   "description": "Fast and accurate React renderer for Notion.",
   "repository": "2ndlife/react-notion-x",

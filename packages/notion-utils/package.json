@@ -1,6 +1,6 @@
 {
   "name": "@2ndlife/notion-utils",
-  "version": "7.3.0",
+  "version": "7.3.0-4-g2d10eff",
   "type": "module",
   "description": "Useful utilities for working with Notion data. Isomorphic.",
   "repository": "2ndlife/react-notion-x",

@@ -1,6 +1,6 @@
 {
   "name": "@2ndlife/notion-client",
-  "version": "7.3.0",
+  "version": "7.3.0-4-g2d10eff",
   "type": "module",
   "description": "Robust TypeScript client for the unofficial Notion API.",
   "repository": "2ndlife/react-notion-x",

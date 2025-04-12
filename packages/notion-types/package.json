@@ -1,6 +1,6 @@
 {
   "name": "@2ndlife/notion-types",
-  "version": "7.3.0",
+  "version": "7.3.0-4-g2d10eff",
   "type": "module",
   "description": "TypeScript types for core Notion data structures.",
   "repository": "2ndlife/react-notion-x",
