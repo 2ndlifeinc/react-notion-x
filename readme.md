@@ -11,7 +11,15 @@
 ## 2ndlife forked version
 
 ```
-VERSION=$(git describe --tags --long --always --dirty)
+# version
+git describe --tags --long --always --dirty
+
+
+bumpp -r
+# 위의 버전에서 나온 내용 입력
+# 7.3.0-1-gca0a588.0
+
+
 ```
 
 ## Contents
