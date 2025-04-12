@@ -1,6 +1,6 @@
 {
   "name": "notion-x-example-cra",
-  "version": "7.3.0-1-gca0a588.0",
+  "version": "7.3.0-4-g03006b7-dirty",
   "private": true,
   "scripts": {
     "dev": "DISABLE_ESLINT_PLUGIN=true GENERATE_SOURCEMAP=false react-scripts start",
