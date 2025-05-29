@@ -50,6 +50,7 @@ function LinkMentionPreview({ metadata }: { metadata: LinkMentionData }) {
           className='notion-link-mention-preview-thumbnail'
           src={metadata.thumbnail_url}
           alt={metadata.title}
+          referrerPolicy='same-origin'
         />
         <div className='notion-link-mention-preview-content'>
           <p className='notion-link-mention-preview-title'>{metadata.title}</p>
@@ -61,6 +62,7 @@ function LinkMentionPreview({ metadata }: { metadata: LinkMentionData }) {
               className='notion-link-mention-preview-icon'
               src={metadata.icon_url}
               alt={metadata.link_provider}
+              referrerPolicy='same-origin'
             />
             <span className='notion-link-mention-preview-provider'>
               {metadata.link_provider}
