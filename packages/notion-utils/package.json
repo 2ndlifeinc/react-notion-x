@@ -1,10 +1,9 @@
 {
-  "name": "@2ndlife/notion-utils",
-  "version": "7.3.0-4-g2d10eff",
+  "name": "notion-utils",
+  "version": "7.3.0",
   "type": "module",
   "description": "Useful utilities for working with Notion data. Isomorphic.",
-  "repository": "2ndlife/react-notion-x",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
+  "repository": "NotionX/react-notion-x",
   "license": "MIT",
   "main": "./build/index.js",
   "module": "./build/index.js",
