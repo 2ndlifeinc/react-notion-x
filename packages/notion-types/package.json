@@ -1,10 +1,13 @@
 {
-  "name": "@2ndlife/notion-types",
-  "version": "7.3.0-4-g2d10eff",
+  "name": "@2ndlifeinc/notion-types",
+  "version": "7.3.0-alpha.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "type": "module",
   "description": "TypeScript types for core Notion data structures.",
-  "repository": "2ndlife/react-notion-x",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
+  "repository": "https://github.com/2ndlifeinc/react-notion-x",
+  "author": "2ndlifeinc <contact@2ndlifeclass.com>",
   "license": "MIT",
   "main": "./build/index.js",
   "module": "./build/index.js",
