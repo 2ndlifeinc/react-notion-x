@@ -232,6 +232,7 @@ export interface TodoBlock extends BaseTextBlock {
   properties: {
     title: Decoration[]
     checked: (['Yes'] | ['No'])[]
+    onCheck?: (checked: boolean) => void
   }
 }
 

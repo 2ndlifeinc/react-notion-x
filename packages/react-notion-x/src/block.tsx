@@ -765,11 +765,16 @@ export function Block(props: BlockProps) {
 
     case 'to_do': {
       const isChecked = block.properties?.checked?.[0]?.[0] === 'Yes'
+      const onCheck = block.properties?.onCheck
 
       return (
         <div className={cs('notion-to-do', blockId)}>
           <div className='notion-to-do-item'>
-            <components.Checkbox blockId={blockId} isChecked={isChecked} />
+            <components.Checkbox
+              blockId={blockId}
+              isChecked={isChecked}
+              onCheck={onCheck}
+            />
 
             <div
               className={cs(
