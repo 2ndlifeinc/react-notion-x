@@ -21,6 +21,7 @@ import { PageIcon } from './components/page-icon'
 import { PageTitle } from './components/page-title'
 import { SyncPointerBlock } from './components/sync-pointer-block'
 import { Text } from './components/text'
+import { Todo } from './components/todo'
 import { useNotionContext } from './context'
 import { LinkIcon } from './icons/link-icon'
 import {
@@ -763,33 +764,17 @@ export function Block(props: BlockProps) {
       )
     }
 
-    case 'to_do': {
-      const isChecked = block.properties?.checked?.[0]?.[0] === 'Yes'
-      const onCheck = block.properties?.onCheck
-
+    case 'to_do':
       return (
-        <div className={cs('notion-to-do', blockId)}>
-          <div className='notion-to-do-item'>
-            <components.Checkbox
-              blockId={blockId}
-              isChecked={isChecked}
-              onCheck={onCheck}
-            />
-
-            <div
-              className={cs(
-                'notion-to-do-body',
-                isChecked && `notion-to-do-checked`
-              )}
-            >
-              <Text value={block.properties?.title} block={block} />
-            </div>
-          </div>
-
-          <div className='notion-to-do-children'>{children}</div>
-        </div>
+        <Todo
+          block={block}
+          blockId={blockId}
+          components={components}
+          recordMap={recordMap}
+        >
+          {children}
+        </Todo>
       )
-    }
 
     case 'transclusion_container':
       return <div className={cs('notion-sync-block', blockId)}>{children}</div>
