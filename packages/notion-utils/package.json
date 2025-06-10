@@ -1,9 +1,13 @@
 {
-  "name": "notion-utils",
-  "version": "7.3.0",
+  "name": "@2ndlifeclass/notion-utils",
+  "version": "7.3.0-alpha.1",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "type": "module",
   "description": "Useful utilities for working with Notion data. Isomorphic.",
-  "repository": "NotionX/react-notion-x",
+  "repository": "https://github.com/2ndlifeinc/react-notion-x",
+  "author": "2ndlifeinc <contact@2ndlifeclass.com>",
   "license": "MIT",
   "main": "./build/index.js",
   "module": "./build/index.js",
