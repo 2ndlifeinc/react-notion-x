@@ -1,5 +1,5 @@
 {
-  "name": "@2ndlifeclass/notion-utils",
+  "name": "@2ndlifeinc/notion-utils",
   "version": "7.3.0-alpha.1",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
